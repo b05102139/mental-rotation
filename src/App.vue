@@ -51,8 +51,8 @@ export default {
 	name: 'App',
 	data() {
 		return {
-			main_trials: _.shuffle(main_trials),
-			training_trials: _.shuffle(training_trials),
+			main_trials: main_trials,
+			training_trials: training_trials,
 		};
 	}
 };

@@ -32,7 +32,7 @@
 				<template #feedback>
 					<p v-if="!$magpie.measurements.hasOwnProperty('response')">Faster!</p>
 					<p v-else-if="$magpie.measurements.response == trial.expected">That's right!</p>
-					<p v-else>Not correct, sorry!</p>
+					<p v-else>Incorrect, sorry!</p>
 				</template>
 			</KeypressScreen>
 		</template>
